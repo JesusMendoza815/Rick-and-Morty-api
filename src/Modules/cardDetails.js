@@ -17,7 +17,7 @@ export const createCardDetail = ((imgUrl, name, status, specie, location, origin
   let pLocation = document.createElement('p');
   let a = document.createElement('a');
 
-  div.classList.add('card', 'bg-dark', 'text-white', 'm-0', 'col-12', 'ps-3');
+  div.classList.add('card', 'bg-dark', 'text-white', 'm-0', 'col-12', 'ps-md-3');
   divRow.classList.add('row', 'g-4', 'align-items-center');
   divCol.classList.add('col-md-6', 'div-img');
   img.classList.add('card-img-top', 'rounded-3');
