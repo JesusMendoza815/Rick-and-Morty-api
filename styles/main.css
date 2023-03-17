@@ -2,10 +2,9 @@ body {
   width: 100vw;
 }
 
-nav {
-  height: 5rem;
-}
 nav img {
+  height: 5rem;
+  width: 90vw;
   -o-object-fit: contain !important;
      object-fit: contain !important;
 }
