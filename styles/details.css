@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+#card-container .card div.div-img img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}/*# sourceMappingURL=details.css.map */

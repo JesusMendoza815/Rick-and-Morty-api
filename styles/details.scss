@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+#card-container {
+  .card {
+    div.div-img {
+      img {
+        object-fit: cover !important;
+      }
+    }
+  }
+}
