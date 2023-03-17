@@ -1,3 +1,15 @@
+body {
+  width: 100vw;
+}
+
+nav {
+  height: 5rem;
+}
+nav img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
 #cards-container {
   align-items: stretch !important;
 }/*# sourceMappingURL=main.css.map */

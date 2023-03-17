@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+nav {
+  height: 5rem;
+  position: fixed;
+  top: 1.5rem;
+}
+nav img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+#card-container {
+  margin: 9rem 1rem 1rem 1rem;
+}
 #card-container .card div.div-img img {
   -o-object-fit: cover !important;
      object-fit: cover !important;

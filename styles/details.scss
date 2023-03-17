@@ -2,7 +2,18 @@
   box-sizing: border-box;
 }
 
+nav {
+  height: 5rem;
+  position: fixed;
+  top: 1.5rem;
+
+  img {
+    object-fit: contain !important;
+  }
+}
+
 #card-container {
+  margin: 9rem 1rem 1rem 1rem;
   .card {
     div.div-img {
       img {
