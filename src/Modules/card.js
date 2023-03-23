@@ -1,4 +1,4 @@
-const URL = '../views/details.html?id=';
+const URL = './views/details.html?id=';
 
 export const createCard = ((imgUrl, name, origin, id) => {
   let div = document.createElement('div');
@@ -31,7 +31,6 @@ export const createCard = ((imgUrl, name, origin, id) => {
 
   divCardBody.append(smallName, h5, smallP, p);
   div.append(img, divCardBody, a);
-  
   return div;
 });
 
